@@ -53,6 +53,20 @@ The **User Assistance Web App** is a Streamlit application that assists users in
     ```bash
     streamlit run app.py
     ```
+### Prompting Strategy
+
+### Prompting Strategy Description
+
+The prompting strategy in the **User Assistance Web App** involves:
+
+1. **Contextual Prompts**: Prompts are tailored based on user queries and the context provided by uploaded images. For example, if a user asks about "bus details," the app generates a prompt specifically asking for bus details visible in the screenshots.
+
+2. **Task-Specific Prompts**: Different prompts are designed for specific tasks, such as describing bus features, listing offers, sorting buses by price or rating, and filtering by departure or arrival times. This ensures that the model provides precise and relevant responses.
+
+3. **Adaptive Prompting**: The prompts adapt based on keywords identified in user queries. For example, if the query contains "sort by price," the prompt instructs the model to organize bus data by price. This approach enables the app to handle a wide range of user requests flexibly.
+
+4. **Guidance and Engagement**: The prompts are crafted to be assistive, clear, and engaging, ensuring users receive easily understandable and actionable information. The strategy focuses on maintaining a conversational tone to enhance user experience.
+
 
 ## Usage
 
