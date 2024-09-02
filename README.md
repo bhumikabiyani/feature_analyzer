@@ -55,8 +55,6 @@ The **User Assistance Web App** is a Streamlit application that assists users in
     ```
 ### Prompting Strategy
 
-### Prompting Strategy Description
-
 The prompting strategy in the **User Assistance Web App** involves:
 
 1. **Contextual Prompts**: Prompts are tailored based on user queries and the context provided by uploaded images. For example, if a user asks about "bus details," the app generates a prompt specifically asking for bus details visible in the screenshots.
