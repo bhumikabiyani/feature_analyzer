@@ -75,7 +75,7 @@ def main():
         if describe_features:
             with right_col:
                 st.write("Describing features from the screenshots...")
-                feature_prompt = """Provide description of the features visible in the screenshots, focusing on bus amenities, layout, and any relevant visual information. If there is details of bus then along with description output a table with bus details in it."""
+                feature_prompt = """Provide description of the features visible in the screenshots, focusing on bus amenities, layout, and any relevant visual information. If there is details of bus then along with description output a table with bus details in it. If the screenshot lacks something which user want to know polietly ask user to add more screenshots for better response."""
                 response_text = generate_response(feature_prompt, images)
                 st.markdown(response_text)
 
